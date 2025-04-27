@@ -1,10 +1,8 @@
-
 # Plik robots.txt dla Siłowni Relax Radomsko
 
 # Zezwala wszystkim robotom na indeksowanie całej witryny
 User-agent: *
-Disallow: /admin/  # Zablokowanie dostępu do katalogu administracyjnego (jeśli istnieje)
-Allow: /publiczny-folder/  # Zezwala na indeksowanie publicznego folderu (jeśli jest)
+Disallow:  # Brak ograniczeń w indeksowaniu
 
-# Mapa witryny - pozwala robotom łatwiej zindeksować zawartość
+# Mapa witryny
 Sitemap: https://japonn.github.io/OSIpczPB/sitemap.xml
