@@ -1,0 +1,117 @@
+<!-- Piotr Barański 136727 Informatyka NST 3 rok 5 semestr gr.1 -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Relax Radomsko - Siłownia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo" id="logo">
+            <img src="logo.png" alt="Relax Radomsko Logo" class="logo-img">
+            <h1>Relax Radomsko</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#offer">Oferta</a></li>
+                <li><a href="#prices">Cennik</a></li>
+                <li><a href="#opinions">Opinie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>O nas</h2>
+        <div class="about-content">
+            <div class="image-container">
+                <img src="paker.jpg" alt="Paker" id="paker-img">
+            </div>
+            <div class="text-container">
+                <p>Relax Radomsko to nowoczesna siłownia, w której możesz zadbać o swoje zdrowie i formę w komfortowych warunkach. U nas znajdziesz przestronną salę do ćwiczeń, nowoczesny sprzęt i indywidualne podejście do każdego klienta.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="section">
+        <h2>Nasza oferta</h2>
+        <div class="offer-container">
+            <div class="offer-item">
+                <h3>Siłownia</h3>
+                <p>Nowoczesny sprzęt do ćwiczeń siłowych i kardio.</p>
+            </div>
+            <div class="offer-item">
+                <h3>Zajęcia grupowe</h3>
+                <p>Różnorodne zajęcia fitness dla każdego poziomu zaawansowania.</p>
+            </div>
+            <div class="offer-item">
+                <h3>Treningi personalne</h3>
+                <p>Indywidualne podejście i planowanie treningów dopasowanych do Ciebie.</p>
+            </div>
+            <div class="offer-item">
+                <h3>Sauna</h3>
+                <p>Relaks i regeneracja po intensywnym treningu w naszej saunie.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" class="section">
+        <h2>Cennik</h2>
+        <div class="pricing-table">
+            <div class="pricing-item">
+                <h3>Karnet miesięczny</h3>
+                <p>150 zł</p>
+            </div>
+            <div class="pricing-item">
+                <h3>Karnet 10 wejść</h3>
+                <p>100 zł</p>
+            </div>
+            <div class="pricing-item">
+                <h3>Trening personalny</h3>
+                <p>80 zł za godzinę</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="opinions" class="section">
+        <h2>Opinie naszych klientów</h2>
+        <div class="opinions-container">
+            <div class="opinion">
+                <p>"Siłownia Relax Radomsko to idealne miejsce, by zadbać o formę. Profesjonalny sprzęt i przyjazna atmosfera!"</p>
+                <p>- Janek, klient</p>
+            </div>
+            <div class="opinion">
+                <p>"Treningi personalne są na bardzo wysokim poziomie. Czułem się motywowany przez cały czas!"</p>
+                <p>- Ania, klientka</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Kontakt</h2>
+        <p>Skontaktuj się z nami:</p>
+        <form id="contact-form">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Relax Radomsko</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
